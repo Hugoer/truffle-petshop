@@ -8,6 +8,7 @@
   },
   "scripts": {
     "dev": "lite-server",
+    "start": "npm run dev",
     "compile": "truffle compile",
     "deploy": "truffle deploy --reset",
     "full": "npm run compile && npm run deploy",
